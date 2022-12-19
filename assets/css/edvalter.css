@@ -271,8 +271,10 @@ img {
     }
 
     .apresentacao {
-        margin-left: 20%;
+        width: 100%;
+        margin-left: 10%;
         margin-top: 40%;
+        
     }
 
     .organizador {
