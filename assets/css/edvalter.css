@@ -705,9 +705,8 @@ h2 {
     color: white;
 }
 
-
-
-@media (max-width:1200px) {
+/*
+@media (max-device-width:1500px) {
 
 
 
@@ -716,15 +715,16 @@ h2 {
         width: 210px;
         height: 100vh;
         transition: ease 1s;
-        background-color: rgb(19, 20, 20);
+        /*background-color: rgb(19, 20, 20);
+        background-color: rgb(75, 107, 14);
     }
 
     .cvdireito {
 
         width: 150px;
         height: 150px;
-        margin-top: -80%;
-        margin-left: 5%;
+        margin-top: -40%;
+        margin-left: 3%;
 
         transition: ease 1s;
         border-radius: 50%;
@@ -734,9 +734,480 @@ h2 {
 
     .cvesquerdoinfo {
         width: 230px;
-        margin-left: 2%;
+        margin-left: 1%;
         align-items: center;
-        margin-top: -75%;
+        margin-top: -35%;
+
+    }
+
+    .downloadcv {
+        width: 153px;
+        height: 40px;
+        margin-left: 5%;
+        background-color: rgba(8, 7, 7, 0.774);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 62px;
+    }
+
+    .downloadcv a {
+        font-size: 15px;
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    /*
+    .TitleAddresscv {
+        color: white;
+
+        margin-right: 45%;
+    }
+
+    .Addresscv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlemailcv {
+        color: white;
+
+        margin-right: 53%;
+    }
+
+    .emailcv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlephonecv {
+        color: white;
+        margin-left: -30%;
+    }
+
+    .phonecv {
+        color: white;
+        font-size: 13px;
+    }
+
+    
+
+    .portfolio1 {
+        display: none;
+    }
+
+    .portfolio2 {
+        display: none;
+    }
+
+    .portfolio3 {
+        display: none;
+    }
+
+    .portfolio4 {
+        display: none;
+    }
+
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+*/
+
+@media (max-width:1220px) {
+  
+    .cvesquerdo {
+    
+        width: 320px;
+        height: 100vh;
+        transition: ease 1s;
+        background-color: rgb(56, 4, 12);
+    }
+    
+    
+    .cvdireito {
+    
+        width: 200px;
+        height: 200px;
+        margin-top: -40%;
+        margin-left: 5%;
+    
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+    .cvesquerdoinfo {
+        width: 310px;
+        margin-left: 3%;
+        align-items: center;
+        margin-top: -25%;
+    
+    }
+    
+    .TitleAddresscv {
+        color: white;
+        font-size: 1.1rem;
+    }
+    
+    .Addresscv {
+        font-size: 1rem;
+        margin-top: -3%;
+        color: white;
+    
+    }
+    
+    .Titlemailcv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .emailcv {
+    
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+    
+    .Titlephonecv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .phonecv {
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+    
+}
+@media (max-width:1090px) {
+  
+    .cvesquerdo {
+    
+        width: 320px;
+        height: 100vh;
+        transition: ease 1s;
+        background-color: rgb(67, 48, 110);
+    }
+    
+    
+    .cvdireito {
+    
+        width: 200px;
+        height: 200px;
+        margin-top: -43%;
+        margin-left: 5%;
+    
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+    .cvesquerdoinfo {
+        width: 310px;
+        margin-left: 3%;
+        align-items: center;
+        margin-top: -25%;
+    
+    }
+    
+    .TitleAddresscv {
+        color: white;
+        font-size: 1.1rem;
+    }
+    
+    .Addresscv {
+        font-size: 1rem;
+        margin-top: -3%;
+        color: white;
+    
+    }
+    
+    .Titlemailcv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .emailcv {
+    
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+    
+    .Titlephonecv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .phonecv {
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+    
+}
+
+
+@media (max-width:1000px) {
+  
+    .cvesquerdo {
+    
+        width: 320px;
+        height: 100vh;
+        transition: ease 1s;
+        background-color: rgb(7, 150, 66);
+    }
+    .cvdireito {
+    
+        width: 200px;
+        height: 200px;
+        margin-top: -48%;
+        margin-left: 5%;
+    
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+    .cvesquerdoinfo {
+        width: 310px;
+        margin-left: 3%;
+        align-items: center;
+        margin-top: -34%;
+    
+    }
+    
+    .TitleAddresscv {
+        color: white;
+        font-size: 1.1rem;
+    }
+    
+    .Addresscv {
+        font-size: 1rem;
+        margin-top: -3%;
+        color: white;
+    
+    }
+    
+    .Titlemailcv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .emailcv {
+    
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+    
+    .Titlephonecv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .phonecv {
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+}
+
+@media (max-width:950px) {
+  
+    .cvesquerdo {
+    
+        width: 320px;
+        height: 100vh;
+        transition: ease 1s;
+        background-color: rgb(5, 30, 99);
+    }
+    .cvdireito {
+    
+        width: 200px;
+        height: 200px;
+        margin-top: -48%;
+        margin-left: 5%;
+    
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+    .cvesquerdoinfo {
+        width: 310px;
+        margin-left: 3%;
+        align-items: center;
+        margin-top: -34%;
+    
+    }
+    
+    .TitleAddresscv {
+        color: white;
+        font-size: 1.1rem;
+    }
+    
+    .Addresscv {
+        font-size: 1rem;
+        margin-top: -3%;
+        color: white;
+    
+    }
+    
+    .Titlemailcv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .emailcv {
+    
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+    
+    .Titlephonecv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .phonecv {
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+}
+
+@media (max-width:900px) {
+  
+    .cvesquerdo {
+    
+        width: 320px;
+        height: 100vh;
+        transition: ease 1s;
+        background-color: rgb(99, 55, 5);
+    }
+    .cvdireito {
+    
+        width: 200px;
+        height: 200px;
+        margin-top: -55%;
+        margin-left: 5%;
+    
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+    .cvesquerdoinfo {
+        width: 310px;
+        margin-left: 3%;
+        align-items: center;
+        margin-top: -44%;
+    
+    }
+    
+    .TitleAddresscv {
+        color: white;
+        font-size: 1.1rem;
+    }
+    
+    .Addresscv {
+        font-size: 1rem;
+        margin-top: -3%;
+        color: white;
+    
+    }
+    
+    .Titlemailcv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .emailcv {
+    
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+    
+    .Titlephonecv {
+        font-size: 1.1rem;
+        margin-top: -5%;
+        color: white;
+    }
+    
+    .phonecv {
+        font-size: 1rem;
+        margin-top: -4%;
+        color: white;
+    }
+}
+
+
+
+@media (max-width:800px) {
+
+
+
+    .cvesquerdo {
+
+        width: 210px;
+        height: 100vh;
+        transition: ease 1s;
+        /*background-color: rgb(19, 20, 20);*/
+        background-color: rgb(41, 133, 13);
+    }
+
+    .cvdireito {
+
+        width: 150px;
+        height: 150px;
+        margin-top: -50%;
+        margin-left: 3%;
+
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+
+    .cvesquerdoinfo {
+        width: 230px;
+        margin-left: 1%;
+        align-items: center;
+        margin-top: -45%;
 
     }
 
@@ -833,12 +1304,784 @@ h2 {
     }
 }
 
-@media(max-width:950px) {
+
+@media (max-width:750px) {
+
+
+
+    .cvesquerdo {
+
+        width: 210px;
+        height: 100vh;
+        transition: ease 1s;
+        /*background-color: rgb(19, 20, 20);*/
+        background-color: rgb(105, 46, 51);
+    }
+
+    .cvdireito {
+
+        width: 150px;
+        height: 150px;
+        margin-top: -55%;
+        margin-left: 3%;
+
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+
+    .cvesquerdoinfo {
+        width: 230px;
+        margin-left: 1%;
+        align-items: center;
+        margin-top: -45%;
+
+    }
+
+    .downloadcv {
+        width: 153px;
+        height: 40px;
+        margin-left: 5%;
+        background-color: rgba(8, 7, 7, 0.774);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 62px;
+    }
+
+    .downloadcv a {
+        font-size: 15px;
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    /*
+    .TitleAddresscv {
+        color: white;
+
+        margin-right: 45%;
+    }
+
+    .Addresscv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlemailcv {
+        color: white;
+
+        margin-right: 53%;
+    }
+
+    .emailcv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlephonecv {
+        color: white;
+        margin-left: -30%;
+    }
+
+    .phonecv {
+        color: white;
+        font-size: 13px;
+    }
+
+    
+*/
+    .portfolio1 {
+        display: none;
+    }
+
+    .portfolio2 {
+        display: none;
+    }
+
+    .portfolio3 {
+        display: none;
+    }
+
+    .portfolio4 {
+        display: none;
+    }
+
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+
+/*================================================*/
+
+@media (max-width:680px) {
+
+
+
+    .cvesquerdo {
+
+        width: 210px;
+        height: 100vh;
+        transition: ease 1s;
+        /*background-color: rgb(19, 20, 20);*/
+        background-color: rgb(37, 34, 37);
+    }
+
+    .cvdireito {
+
+        width: 150px;
+        height: 150px;
+        margin-top: -60%;
+        margin-left: 3%;
+
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+
+    .cvesquerdoinfo {
+        width: 230px;
+        margin-left: 1%;
+        align-items: center;
+        margin-top: -55%;
+
+    }
+
+    .downloadcv {
+        width: 153px;
+        height: 40px;
+        margin-left: 5%;
+        background-color: rgba(8, 7, 7, 0.774);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 62px;
+    }
+
+    .downloadcv a {
+        font-size: 15px;
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    /*
+    .TitleAddresscv {
+        color: white;
+
+        margin-right: 45%;
+    }
+
+    .Addresscv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlemailcv {
+        color: white;
+
+        margin-right: 53%;
+    }
+
+    .emailcv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlephonecv {
+        color: white;
+        margin-left: -30%;
+    }
+
+    .phonecv {
+        color: white;
+        font-size: 13px;
+    }
+
+    
+*/
+    .portfolio1 {
+        display: none;
+    }
+
+    .portfolio2 {
+        display: none;
+    }
+
+    .portfolio3 {
+        display: none;
+    }
+
+    .portfolio4 {
+        display: none;
+    }
+
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+/*================================================*/
+
+@media (max-width:630px) {
+
+
+
+    .cvesquerdo {
+
+        width: 210px;
+        height: 100vh;
+        transition: ease 1s;
+        /*background-color: rgb(19, 20, 20);*/
+        background-color: rgb(2, 15, 34);
+    }
+
+    .cvdireito {
+
+        width: 150px;
+        height: 150px;
+        margin-top: -64%;
+        margin-left: 3%;
+
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+
+    .cvesquerdoinfo {
+        width: 230px;
+        margin-left: 1%;
+        align-items: center;
+        margin-top: -55%;
+
+    }
+
+    .downloadcv {
+        width: 153px;
+        height: 40px;
+        margin-left: 5%;
+        background-color: rgba(8, 7, 7, 0.774);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 62px;
+    }
+
+    .downloadcv a {
+        font-size: 15px;
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    /*
+    .TitleAddresscv {
+        color: white;
+
+        margin-right: 45%;
+    }
+
+    .Addresscv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlemailcv {
+        color: white;
+
+        margin-right: 53%;
+    }
+
+    .emailcv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlephonecv {
+        color: white;
+        margin-left: -30%;
+    }
+
+    .phonecv {
+        color: white;
+        font-size: 13px;
+    }
+
+    
+*/
+    .portfolio1 {
+        display: none;
+    }
+
+    .portfolio2 {
+        display: none;
+    }
+
+    .portfolio3 {
+        display: none;
+    }
+
+    .portfolio4 {
+        display: none;
+    }
+
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+/**/
+
+@media (max-width:600px) {
+
+
+
+    .cvesquerdo {
+
+        width: 210px;
+        height: 100vh;
+        transition: ease 1s;
+        /*background-color: rgb(19, 20, 20);*/
+        background-color: rgb(122, 9, 43);
+    }
+
+    .cvdireito {
+
+        width: 150px;
+        height: 150px;
+        margin-top: -70%;
+        margin-left: 3%;
+
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+
+    .cvesquerdoinfo {
+        width: 230px;
+        margin-left: 1%;
+        align-items: center;
+        margin-top: -60%;
+
+    }
+
+    .downloadcv {
+        width: 153px;
+        height: 40px;
+        margin-left: 5%;
+        background-color: rgba(8, 7, 7, 0.774);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 62px;
+    }
+
+    .downloadcv a {
+        font-size: 15px;
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    /*
+    .TitleAddresscv {
+        color: white;
+
+        margin-right: 45%;
+    }
+
+    .Addresscv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlemailcv {
+        color: white;
+
+        margin-right: 53%;
+    }
+
+    .emailcv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlephonecv {
+        color: white;
+        margin-left: -30%;
+    }
+
+    .phonecv {
+        color: white;
+        font-size: 13px;
+    }
+
+    
+*/
+    .portfolio1 {
+        display: none;
+    }
+
+    .portfolio2 {
+        display: none;
+    }
+
+    .portfolio3 {
+        display: none;
+    }
+
+    .portfolio4 {
+        display: none;
+    }
+
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+
+/**/
+
+@media (max-width:540px) {
+
+
+
+    .cvesquerdo {
+
+        width: 210px;
+        height: 100vh;
+        transition: ease 1s;
+        /*background-color: rgb(19, 20, 20);*/
+        background-color: rgb(59, 4, 21);
+    }
+
+    .cvdireito {
+
+        width: 150px;
+        height: 150px;
+        margin-top: -75%;
+        margin-left: 3%;
+
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+
+    .cvesquerdoinfo {
+        width: 230px;
+        margin-left: 1%;
+        align-items: center;
+        margin-top: -60%;
+
+    }
+
+    .downloadcv {
+        width: 153px;
+        height: 40px;
+        margin-left: 5%;
+        background-color: rgba(8, 7, 7, 0.774);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 62px;
+    }
+
+    .downloadcv a {
+        font-size: 15px;
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    /*
+    .TitleAddresscv {
+        color: white;
+
+        margin-right: 45%;
+    }
+
+    .Addresscv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlemailcv {
+        color: white;
+
+        margin-right: 53%;
+    }
+
+    .emailcv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlephonecv {
+        color: white;
+        margin-left: -30%;
+    }
+
+    .phonecv {
+        color: white;
+        font-size: 13px;
+    }
+
+    
+*/
+    .portfolio1 {
+        display: none;
+    }
+
+    .portfolio2 {
+        display: none;
+    }
+
+    .portfolio3 {
+        display: none;
+    }
+
+    .portfolio4 {
+        display: none;
+    }
+
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+/**/
+
+@media (max-width:520px) {
+
+
+
+    .cvesquerdo {
+
+        width: 210px;
+        height: 100vh;
+        transition: ease 1s;
+        /*background-color: rgb(19, 20, 20);*/
+        background-color: rgb(100, 36, 56);
+    }
+
+    .cvdireito {
+
+        width: 150px;
+        height: 150px;
+        margin-top: -80%;
+        margin-left: 3%;
+
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
+    }
+
+    .cvesquerdoinfo {
+        width: 230px;
+        margin-left: 1%;
+        align-items: center;
+        margin-top: -70%;
+
+    }
+
+    .downloadcv {
+        width: 153px;
+        height: 40px;
+        margin-left: 5%;
+        background-color: rgba(8, 7, 7, 0.774);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 62px;
+    }
+
+    .downloadcv a {
+        font-size: 15px;
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    /*
+    .TitleAddresscv {
+        color: white;
+
+        margin-right: 45%;
+    }
+
+    .Addresscv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlemailcv {
+        color: white;
+
+        margin-right: 53%;
+    }
+
+    .emailcv {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Titlephonecv {
+        color: white;
+        margin-left: -30%;
+    }
+
+    .phonecv {
+        color: white;
+        font-size: 13px;
+    }
+
+    
+*/
+    .portfolio1 {
+        display: none;
+    }
+
+    .portfolio2 {
+        display: none;
+    }
+
+    .portfolio3 {
+        display: none;
+    }
+
+    .portfolio4 {
+        display: none;
+    }
+
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+
+
+
+@media(max-device-width: 900px) {
     .cvesquerdo {
         width: 180px;
         height: 100vh;
         transition: ease 1s;
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(17, 88, 88);
     }
 
     .cvdireito {
@@ -860,7 +2103,7 @@ h2 {
         margin-left: 2%;
         align-items: center;
         margin-top: -115%;
-        
+
 
     }
 
@@ -883,35 +2126,41 @@ h2 {
     }
 
 
-    
-     .TitleAddresscv {
+
+    .TitleAddresscv {
         color: white;
         font-size: 15px;
         margin-right: 45%;
     }
+
     .Addresscv {
         color: white;
         font-size: 12px;
-       
+
     }
+
     .Titlemailcv {
-        color: white; 
+        color: white;
         font-size: 15px;
         margin-right: 53%;
     }
+
     .emailcv {
-        color: white; 
+        color: white;
         font-size: 12px;
     }
+
     .Titlephonecv {
-        color: white; 
+        color: white;
         font-size: 13px;
-        
+
     }
+
     .phonecv {
-        color: white; 
+        color: white;
         font-size: 12px;
     }
+
     .downloadcv {
         width: 153px;
         height: 40px;
