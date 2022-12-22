@@ -88,7 +88,7 @@ img {
     width: 100%;
     height: 15%;
     /*rgba(255, 255, 255, 0.575);*/
-    background-color: #4c3228be;
+    background-color: #5b3e319d;
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
@@ -122,7 +122,7 @@ img {
 
     /*background: linear-gradient(63.13deg, #ffffff59 51.05%,#352728 51.04%),url('../ig/kazira.jpg');
     */
-    background: linear-gradient(63.13deg, #35272844 51.05%, #6b4c31 51.04%), url('../ig/kazira.jpg');
+    background: linear-gradient(63.13deg, #35272844 51.05%, #5b3e31 51.04%), url('../ig/kazira.jpg');
     background-size: auto;
 
     background-position: left;
