@@ -88,7 +88,7 @@ img {
     width: 100%;
     height: 15%;
     /*rgba(255, 255, 255, 0.575);*/
-    background: rgba(8, 7, 7, 0.671);
+    background-color: #6b4c31b6;
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
@@ -122,7 +122,7 @@ img {
 
     /*background: linear-gradient(63.13deg, #ffffff59 51.05%,#352728 51.04%),url('../ig/kazira.jpg');
     */
-    background: linear-gradient(63.13deg, #35272844 51.05%, rgb(19, 20, 20) 51.04%), url('../ig/kazira.jpg');
+    background: linear-gradient(63.13deg, #35272844 51.05%, #6b4c31 51.04%), url('../ig/kazira.jpg');
     background-size: auto;
 
     background-position: left;
@@ -2243,62 +2243,35 @@ button:hover {
 
 @media (max-width:1200px) {
 
-    /*
+    
     .cvesquerdo {
-        margin-top: -20%;
-        margin-right: 69%;
-        width: 50%;
-        height: 100vh;
-        background-color: rgb(10, 122, 122);
-    }
 
-    .cvpicture {
-        width: 150px;
-        height: 155px;
-        margin-left: 7%;
-        margin-top: 110px;
-        border-radius: 50%;
-        background-size: cover;
+        width: 210px;
+        height: 100vh;
+        transition: ease 1s;
+        /*background-color: rgb(19, 20, 20);*/
+        background-color: rgb(10, 100, 100);
     }
 
     .cvdireito {
 
-        margin-top: -125%;
-        margin-right: 53%;
-        width: 50%;
-        height: 90%;
+        width: 150px;
+        height: 150px;
+        margin-top: -75%;
+        margin-left: 3%;
+
+        transition: ease 1s;
+        border-radius: 50%;
+        background: url('../ig/kazira.jpg');
+        background-size: cover;
     }
 
-    .TitleAddresscv {
-        color: white;
+    .cvesquerdoinfo {
+        width: 230px;
+        margin-left: 1%;
+        align-items: center;
+        margin-top: -60%;
 
-        margin-right: 45%;
-    }
-
-    .Addresscv {
-        color: white;
-        font-size: 13px;
-    }
-
-    .Titlemailcv {
-        color: white;
-
-        margin-right: 53%;
-    }
-
-    .emailcv {
-        color: white;
-        font-size: 13px;
-    }
-
-    .Titlephonecv {
-        color: white;
-        margin-left: -30%;
-    }
-
-    .phonecv {
-        color: white;
-        font-size: 13px;
     }
 
     .downloadcv {
@@ -2318,39 +2291,34 @@ button:hover {
         padding: 25px 0;
     }
 
+
     .portfolio1 {
-        margin-top: -215%;
-        margin-right: -46%;
-        width: 85%;
+        margin-left: 45%;
+        margin-top: -280px;
+        width: 50%;
     }
 
     .portfolio2 {
-        margin-top: -178%;
-        margin-right: -30%;
-        width: 85%;
+
+        margin-left: 45%;
+        margin-top: 12px;
+        width: 50%;
+
     }
 
     .portfolio3 {
-        display: none;
-    }
 
-    .portfolio5 {
-
-        margin-top: -120%;
-        margin-right: -90%;
-        width: 80%;
-
-    }
-
-    .portfolio6 {
-        margin-top: -95%;
-        margin-right: -40%;
-        width: 85%;
+        margin-left: 45%;
+        margin-top: 22px;
+        width: 50%;
     }
 
     .portfolio4 {
-        display: none;
-    }*/
+
+        margin-left: 45%;
+        margin-top: 28px;
+        width: 50%;
+    }
 
     /*=====================================*/
 
