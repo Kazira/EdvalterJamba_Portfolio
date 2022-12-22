@@ -835,7 +835,7 @@ h2 {
 
 @media(max-width:950px) {
     .cvesquerdo {
-        width: 197px;
+        width: 180px;
         height: 100vh;
         transition: ease 1s;
         background-color: rgb(15, 88, 88);
@@ -845,7 +845,7 @@ h2 {
 
         width: 150px;
         height: 150px;
-        margin-top: -100%;
+        margin-top: -110%;
         margin-left: 4%;
 
         transition: ease 1s;
@@ -855,22 +855,25 @@ h2 {
     }
 
     .cvesquerdoinfo {
-        width: 190px;
+        width: 165px;
+        height: 30%;
         margin-left: 2%;
         align-items: center;
         margin-top: -115%;
+        
 
     }
 
     .downloadcv {
         width: 140px;
         height: 40px;
-        margin-left: 5%;
+        margin-left: 3%;
         background-color: rgba(8, 7, 7, 0.774);
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 62px;
+        margin-top: 20%;
     }
 
     .downloadcv a {
@@ -883,29 +886,31 @@ h2 {
     
      .TitleAddresscv {
         color: white;
-        
+        font-size: 15px;
         margin-right: 45%;
     }
     .Addresscv {
         color: white;
-        font-size: 13px;
+        font-size: 12px;
+       
     }
     .Titlemailcv {
         color: white; 
-        
+        font-size: 15px;
         margin-right: 53%;
     }
     .emailcv {
         color: white; 
-        font-size: 13px;
+        font-size: 12px;
     }
     .Titlephonecv {
         color: white; 
-        margin-left: -30%;
+        font-size: 13px;
+        
     }
     .phonecv {
         color: white; 
-        font-size: 13px;
+        font-size: 12px;
     }
     .downloadcv {
         width: 153px;
