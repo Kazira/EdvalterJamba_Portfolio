@@ -835,8 +835,7 @@ h2 {
 
 @media(max-width:950px) {
     .cvesquerdo {
-
-        width: 185px;
+        width: 197px;
         height: 100vh;
         transition: ease 1s;
         background-color: rgb(15, 88, 88);
@@ -847,7 +846,7 @@ h2 {
         width: 150px;
         height: 150px;
         margin-top: -100%;
-        margin-left: 2%;
+        margin-left: 4%;
 
         transition: ease 1s;
         border-radius: 50%;
