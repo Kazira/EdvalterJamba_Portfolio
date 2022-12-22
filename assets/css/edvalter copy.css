@@ -88,7 +88,7 @@ img {
     width: 100%;
     height: 15%;
     /*rgba(255, 255, 255, 0.575);*/
-    background: rgba(8, 7, 7, 0.671);
+    background: #4c3228;
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
