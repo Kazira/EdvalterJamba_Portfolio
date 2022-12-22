@@ -838,14 +838,14 @@ h2 {
         width: 180px;
         height: 100vh;
         transition: ease 1s;
-        background-color: rgb(15, 88, 88);
+        background-color: rgb(19, 20, 20);
     }
 
     .cvdireito {
 
         width: 150px;
         height: 150px;
-        margin-top: -110%;
+        margin-top: -105%;
         margin-left: 4%;
 
         transition: ease 1s;
@@ -867,7 +867,7 @@ h2 {
     .downloadcv {
         width: 140px;
         height: 40px;
-        margin-left: 3%;
+        margin-left: -5%;
         background-color: rgba(8, 7, 7, 0.774);
         display: flex;
         justify-content: center;
