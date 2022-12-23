@@ -88,7 +88,7 @@ img {
     width: 100%;
     height: 15%;
     /*rgba(255, 255, 255, 0.575);*/
-    background-color: #5b3e319d;
+    background-color: #4c3228be;
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
@@ -122,7 +122,7 @@ img {
 
     /*background: linear-gradient(63.13deg, #ffffff59 51.05%,#352728 51.04%),url('../ig/kazira.jpg');
     */
-    background: linear-gradient(63.13deg, #35272844 51.05%, #5b3e31 51.04%), url('../ig/kazira.jpg');
+    background: linear-gradient(63.13deg, #35272844 51.05%, #6b4c31 51.04%), url('../ig/kazira.jpg');
     background-size: auto;
 
     background-position: left;
@@ -441,20 +441,8 @@ img {
     width: 351px;
     height: 100vh;
     transition: ease 1s;
-    background-color: rgb(19, 20, 20);
+    background-color: #6b4c31;
 }
-
-/*
-.cvdireito{
-    
-    width: 75%;
-    height: 668px;
-    margin-left: 80%;
-    margin-top: -668px;
-    align-items: center;
-    transition: ease 1s;
-    background-color: rgb(16, 138, 138);
-}*/
 
 .cvdireito {
 
@@ -469,20 +457,6 @@ img {
     background-size: cover;
 }
 
-/*
-.cvpicture {
-   
-    width: 100px;
-    height: 100px;
-    margin-left: 80%;
-    margin-top: 68px;
-    align-items: center;
-    transition: ease 1s;
-    
-    background: url('../ig/pt3.PNG');
-    background-size: cover;
-    
-}*/
 .cvesquerdoinfo {
     width: 310px;
     margin-left: 3%;
@@ -565,11 +539,12 @@ img {
 .downloadcv {
     width: 250px;
     height: 70px;
-    background-color: rgba(8, 7, 7, 0.774);
+    background-color: #4c3228be;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 62px;
+    border-color: rgb(29, 27, 27);
 }
 
 .downloadcv a {
@@ -577,6 +552,98 @@ img {
     padding: 25px 0;
 }
 
+/*=========================*/
+.CvSummary {
+    color: #000000be;
+    font-size: 13px;
+    /*===========================*/
+    display: block;
+    width: 73%;
+    height: 98vh;
+    margin-left: 358px;
+    margin-top: -324px;
+
+    /*===========================*/
+}
+
+.prs1 {
+    margin-top: 12%;
+
+    width: 46%;
+}
+
+.prs2 {
+    margin-top: 1%;
+
+    width: 46%;
+}
+
+.prs3 {
+    margin-top: -27%;
+    margin-left: 50%;
+    width: 46%;
+}
+
+.prs4 {
+    margin-top: -419px;
+    margin-left: 50%;
+    width: 46%;
+}
+
+.barraCvS {
+    margin-top: -2%;
+    width: 97%;
+    height: 10px;
+    background-color: #4c3228be;
+}
+
+.ps {
+    width: 98%;
+    margin-left: 7px;
+    margin-top: 0px;
+
+
+}
+
+.item1 {
+    margin-left: 75%;
+    text-decoration: double;
+    color: #383433;
+    font-weight: bold;
+
+}
+
+.listing {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+.listing>li {
+    text-align: justify;
+    font-family: 'IBM Plex Sans', sans-serif;
+    position: relative;
+    padding-left: 25px;
+
+    font-size: 15px;
+    padding: 4px 15px;
+}
+
+.listing>li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    /*background-color: rgb(255, 255, 255);*/
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*=========================*/
 /*--==================================++++++ABOUTCVATEAQUI++++================================--*/
 
 #sobre-mim {
@@ -663,135 +730,10 @@ h2 {
     color: white;
 }
 
-/*
-@media (max-device-width:1500px) {
 
-
-
-    .cvesquerdo {
-
-        width: 210px;
-        height: 100vh;
-        transition: ease 1s;
-        /*background-color: rgb(19, 20, 20);
-        background-color: rgb(75, 107, 14);
-    }
-
-    .cvdireito {
-
-        width: 150px;
-        height: 150px;
-        margin-top: -40%;
-        margin-left: 3%;
-
-        transition: ease 1s;
-        border-radius: 50%;
-        background: url('../ig/kazira.jpg');
-        background-size: cover;
-    }
-
-    .cvesquerdoinfo {
-        width: 230px;
-        margin-left: 1%;
-        align-items: center;
-        margin-top: -35%;
-
-    }
-
-    .downloadcv {
-        width: 153px;
-        height: 40px;
-        margin-left: 5%;
-        background-color: rgba(8, 7, 7, 0.774);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 62px;
-    }
-
-    .downloadcv a {
-        font-size: 15px;
-        width: 100%;
-        padding: 25px 0;
-    }
-
-    /*
-    .TitleAddresscv {
-        color: white;
-
-        margin-right: 45%;
-    }
-
-    .Addresscv {
-        color: white;
-        font-size: 13px;
-    }
-
-    .Titlemailcv {
-        color: white;
-
-        margin-right: 53%;
-    }
-
-    .emailcv {
-        color: white;
-        font-size: 13px;
-    }
-
-    .Titlephonecv {
-        color: white;
-        margin-left: -30%;
-    }
-
-    .phonecv {
-        color: white;
-        font-size: 13px;
-    }
-
-    
-
-    .portfolio1 {
-        display: none;
-    }
-
-    .portfolio2 {
-        display: none;
-    }
-
-    .portfolio3 {
-        display: none;
-    }
-
-    .portfolio4 {
-        display: none;
-    }
-
-    .ajustador-2 {
-        justify-content: center;
-        text-align: center;
-    }
-
-
-
-
-    .avatar {
-        margin-right: 60px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    .ajustador-2 p {
-        font-size: 15px;
-    }
-
-    .sobre-mim p {
-        text-indent: 0;
-    }
-}
-*/
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:1220px) {
 
     .cvesquerdo {
@@ -799,7 +741,7 @@ h2 {
         width: 320px;
         height: 100vh;
         transition: ease 1s;
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(194, 115, 11);
     }
 
 
@@ -860,8 +802,9 @@ h2 {
         margin-top: -4%;
         color: white;
     }
+
     .portfolio1 {
-      
+
         margin-left: 45%;
         margin-top: -340px;
         width: 50%;
@@ -881,13 +824,111 @@ h2 {
         margin-top: 2px;
         width: 50%;
     }
-    .portfolio4
-    {
+
+    .portfolio4 {
         display: none;
     }
 
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 358px;
+        margin-top: -324px;
+
+        /*===========================*/
+    }
+
+    .prs1 {
+        margin-top: 12%;
+
+        width: 46%;
+    }
+
+    .prs2 {
+        margin-top: 1%;
+
+        width: 46%;
+    }
+
+    .prs3 {
+        margin-top: -247px;
+        margin-left: 48%;
+        width: 46%;
+    }
+
+    .prs4 {
+        margin-top: -395px;
+        margin-left: 48%;
+        width: 46%;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 65%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 25px;
+
+        font-size: 13px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 0;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
+
+
+
+
 }
 
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:1090px) {
 
     .cvesquerdo {
@@ -895,7 +936,7 @@ h2 {
         width: 320px;
         height: 100vh;
         transition: ease 1s;
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(8, 112, 112);
     }
 
 
@@ -956,8 +997,9 @@ h2 {
         margin-top: -4%;
         color: white;
     }
+
     .portfolio1 {
-      
+
         margin-left: 45%;
         margin-top: -395px;
         width: 50%;
@@ -977,14 +1019,108 @@ h2 {
         margin-top: 2px;
         width: 50%;
     }
-    .portfolio4
-    {
+
+    .portfolio4 {
         display: none;
     }
 
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 358px;
+        margin-top: -324px;
+
+        /*===========================*/
+    }
+
+    .prs1 {
+        margin-top: 8%;
+        margin-left: -3%;
+        width: 46%;
+    }
+
+    .prs2 {
+        margin-top: -2%;
+        margin-left: -3%;
+        width: 46%;
+    }
+
+    .prs3 {
+        margin-top: -238px;
+        margin-left: 44%;
+        width: 46%;
+    }
+
+    .prs4 {
+        margin-top: -395px;
+        margin-left: 44%;
+        width: 46%;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 65%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 0px;
+
+        font-size: 12px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 10%;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
+
 }
 
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:1000px) {
 
     .cvesquerdo {
@@ -992,7 +1128,7 @@ h2 {
         width: 320px;
         height: 100vh;
         transition: ease 1s;
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(80, 4, 10);
     }
 
     .cvdireito {
@@ -1054,7 +1190,7 @@ h2 {
     }
 
     .portfolio1 {
-      
+
         margin-left: 45%;
         margin-top: -275px;
         width: 50%;
@@ -1074,13 +1210,108 @@ h2 {
         margin-top: 2px;
         width: 50%;
     }
-    .portfolio4
-    {
+
+    .portfolio4 {
         display: none;
     }
 
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 321px;
+        margin-top: -330px;
+        background-color: aqua;
+        /*===========================*/
+    }
+
+    .prs1 {
+        margin-top: 20%;
+        margin-left: 0%;
+        width: 46%;
+    }
+
+    .prs2 {
+        margin-top: -2%;
+        margin-left: 0%;
+        width: 46%;
+    }
+
+    .prs3 {
+        margin-top: -238px;
+        margin-left: 46%;
+        width: 46%;
+    }
+
+    .prs4 {
+        margin-top: -424px;
+        margin-left: 46%;
+        width: 46%;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 65%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 0px;
+
+        font-size: 12px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 10%;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
+
 }
 
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:950px) {
 
     .cvesquerdo {
@@ -1088,7 +1319,7 @@ h2 {
         width: 320px;
         height: 100vh;
         transition: ease 1s;
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(38, 4, 92);
     }
 
     .cvdireito {
@@ -1151,7 +1382,7 @@ h2 {
 
 
     .portfolio1 {
-      
+
         margin-left: 45%;
         margin-top: -327px;
         width: 50%;
@@ -1171,14 +1402,109 @@ h2 {
         margin-top: 2px;
         width: 50%;
     }
-    .portfolio4
-    {
+
+    .portfolio4 {
         display: none;
     }
+
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 321px;
+        margin-top: -430px;
+        background-color: aqua;
+        /*===========================*/
+    }
+
+    .prs1 {
+        margin-top: 20%;
+        margin-left: 0%;
+        width: 46%;
+    }
+
+    .prs2 {
+        margin-top: -2%;
+        margin-left: 0%;
+        width: 46%;
+    }
+
+    .prs3 {
+        margin-top: -238px;
+        margin-left: 46%;
+        width: 46%;
+    }
+
+    .prs4 {
+        margin-top: -441px;
+        margin-left: 46%;
+        width: 46%;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 65%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 0px;
+
+        font-size: 12px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 10%;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
 
 
 }
 
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:900px) {
 
     .cvesquerdo {
@@ -1249,7 +1575,7 @@ h2 {
 
 
     .portfolio1 {
-      
+
         margin-left: 45%;
         margin-top: -230px;
         width: 50%;
@@ -1272,14 +1598,105 @@ h2 {
 
     .portfolio4 {
 
-       display: none;
+        display: none;
     }
+
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        align-items: center;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 321px;
+        margin-top: -332px;
+        background-color: aqua;
+        /*===========================*/
+    }
+
+    .prs1 {
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs2 {
+        margin-top: -2%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs3 {
+        display: none;
+    }
+
+    .prs4 {
+        display: none;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 65%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 0px;
+
+        font-size: 13px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 10%;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
 
 
 }
 
 
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:800px) {
 
 
@@ -1290,7 +1707,7 @@ h2 {
         height: 100vh;
         transition: ease 1s;
         /*background-color: rgb(19, 20, 20);*/
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(78, 4, 54);
     }
 
     .cvdireito {
@@ -1334,7 +1751,7 @@ h2 {
 
 
     .portfolio1 {
-      
+
         margin-left: 40%;
         margin-top: -280px;
         width: 50%;
@@ -1357,7 +1774,7 @@ h2 {
 
     .portfolio4 {
 
-       display: none;
+        display: none;
     }
 
 
@@ -1384,9 +1801,102 @@ h2 {
     .sobre-mim p {
         text-indent: 0;
     }
+
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        align-items: center;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 210px;
+        margin-top: -400px;
+        background-color: aqua;
+        /*===========================*/
+    }
+
+    .prs1 {
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs2 {
+        margin-top: -2%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs3 {
+        display: none;
+    }
+
+    .prs4 {
+        display: none;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 65%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 0px;
+
+        font-size: 13px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 10%;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
+
+
 }
 
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:750px) {
 
 
@@ -1438,7 +1948,7 @@ h2 {
         padding: 25px 0;
     }
 
-    
+
 
     .portfolio1 {
         margin-left: 45%;
@@ -1463,7 +1973,7 @@ h2 {
 
     .portfolio4 {
 
-       display: none;
+        display: none;
     }
 
 
@@ -1491,10 +2001,101 @@ h2 {
     .sobre-mim p {
         text-indent: 0;
     }
+
+
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        align-items: center;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 210px;
+        margin-top: -380px;
+        background-color: aqua;
+        /*===========================*/
+    }
+
+    .prs1 {
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs2 {
+        margin-top: -2%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs3 {
+        display: none;
+    }
+
+    .prs4 {
+        display: none;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 65%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 0px;
+
+        font-size: 13px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 10%;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
 }
 
-/*================================================*/
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:680px) {
 
 
@@ -1505,7 +2106,7 @@ h2 {
         height: 100vh;
         transition: ease 1s;
         /*background-color: rgb(19, 20, 20);*/
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(90, 145, 19);
     }
 
     .cvdireito {
@@ -1597,10 +2198,100 @@ h2 {
     .sobre-mim p {
         text-indent: 0;
     }
+
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        align-items: center;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 215px;
+        margin-top: -385px;
+        background-color: aqua;
+        /*===========================*/
+    }
+
+    .prs1 {
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs2 {
+        margin-top: -2%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs3 {
+        display: none;
+    }
+
+    .prs4 {
+        display: none;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 65%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 0px;
+
+        font-size: 13px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 10%;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
 }
 
-/*================================================*/
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:630px) {
 
 
@@ -1611,7 +2302,7 @@ h2 {
         height: 100vh;
         transition: ease 1s;
         /*background-color: rgb(19, 20, 20);*/
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(62, 177, 28);
     }
 
     .cvdireito {
@@ -1704,10 +2395,16 @@ h2 {
     .sobre-mim p {
         text-indent: 0;
     }
+
+
+
+
+
 }
 
-/**/
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:600px) {
 
 
@@ -1718,7 +2415,7 @@ h2 {
         height: 100vh;
         transition: ease 1s;
         /*background-color: rgb(19, 20, 20);*/
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(187, 119, 16);
     }
 
     .cvdireito {
@@ -1759,7 +2456,7 @@ h2 {
         padding: 25px 0;
     }
 
-    
+
 
     .portfolio1 {
         margin-left: 45%;
@@ -1812,10 +2509,100 @@ h2 {
     .sobre-mim p {
         text-indent: 0;
     }
+
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        align-items: center;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 215px;
+        margin-top: -390px;
+        background-color: aqua;
+        /*===========================*/
+    }
+
+    .prs1 {
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs2 {
+        margin-top: -2%;
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .prs3 {
+        display: none;
+    }
+
+    .prs4 {
+        display: none;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 65%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 0px;
+
+        font-size: 13px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 10%;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
 }
 
-/**/
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:540px) {
 
 
@@ -1826,7 +2613,7 @@ h2 {
         height: 100vh;
         transition: ease 1s;
         /*background-color: rgb(19, 20, 20);*/
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(97, 1, 1);
     }
 
     .cvdireito {
@@ -1920,10 +2707,29 @@ h2 {
     .sobre-mim p {
         text-indent: 0;
     }
+
+
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        align-items: center;
+        /*===========================*/
+        display: block;
+        width: 73%;
+        height: 98vh;
+        margin-left: 215px;
+        margin-top: -345px;
+        background-color: rgb(7, 53, 53);
+        /*===========================*/
+    }
+
+
 }
 
-/**/
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media (max-width:520px) {
 
     .cvesquerdo {
@@ -1932,7 +2738,7 @@ h2 {
         height: 100vh;
         transition: ease 1s;
         /*background-color: rgb(19, 20, 20);*/
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(40, 3, 65);
     }
 
     .cvdireito {
@@ -2028,13 +2834,15 @@ h2 {
 }
 
 
-
+/*=======================================Responsive================================*/
+/*=================================================================================*/
+/*==================================================================================*/
 @media(max-device-width: 900px) {
     .cvesquerdo {
         width: 180px;
         height: 100vh;
         transition: ease 1s;
-        background-color: rgb(19, 20, 20);
+        background-color: rgb(80, 54, 5);
     }
 
     .cvdireito {
@@ -2132,13 +2940,103 @@ h2 {
     }
 
 
-
-
-
     .ajustador-2 {
         max-width: 350px;
         padding: 70px 30px;
     }
+
+
+    /*=========================*/
+    .CvSummary {
+        color: #000000be;
+        font-size: 13px;
+        align-items: center;
+        /*===========================*/
+        display: block;
+        width: 52%;
+        height: 100vh;
+        margin-left: 180px;
+        margin-top: -200px;
+        background-color: aqua;
+        /*===========================*/
+    }
+    .prs1 {
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 93%;
+    }
+
+    .prs2 {
+        margin-top: -2%;
+        margin-left: 5%;
+        width: 93%;
+    }
+
+    .prs3 {
+        display: none;
+    }
+
+    .prs4 {
+        display: none;
+    }
+
+    .barraCvS {
+        margin-top: -2%;
+        width: 97%;
+        height: 10px;
+        background-color: #4c3228be;
+    }
+
+    .ps {
+        width: 98%;
+        margin-left: 7px;
+        margin-top: 0px;
+
+
+    }
+
+    .item1 {
+        margin-left: 55%;
+        text-decoration: double;
+        color: #383433;
+        font-weight: bold;
+
+    }
+
+    .listing {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+    .PRS
+    {
+        font-size: 10px;
+    }
+
+    .listing>li {
+        text-align: justify;
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: relative;
+        padding-left: 0px;
+
+        font-size: 9px;
+        padding: 4px 15px;
+    }
+
+    .listing>li:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        /*background-color: rgb(255, 255, 255);*/
+        position: absolute;
+        left: 10%;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*=========================*/
 
 
 
@@ -2152,7 +3050,7 @@ h2 {
 #projetos {
     /*
     background: linear-gradient(53.13deg, #0a596d 51.04%, #059499 51.05%);*/
-    background-color: rgb(19, 20, 20);
+    background-color: #6b4c31;
 }
 
 .projetos {
@@ -2242,15 +3140,16 @@ button:hover {
     justify-content: center;
 }
 
+
 @media (max-width:1200px) {
 
-    
+    /*
     .cvesquerdo {
 
         width: 210px;
         height: 100vh;
         transition: ease 1s;
-        /*background-color: rgb(19, 20, 20);*/
+        /*background-color: rgb(19, 20, 20);
         background-color: rgb(10, 100, 100);
     }
 
@@ -2320,7 +3219,7 @@ button:hover {
         margin-top: 28px;
         width: 50%;
     }
-
+*/
     /*=====================================*/
 
 
