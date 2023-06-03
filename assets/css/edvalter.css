@@ -578,16 +578,19 @@ img {
     width: 46%;
 }
 
+
 .prs3 {
-    margin-top: -27%;
+    margin-top: -24%;
     margin-left: 50%;
     width: 46%;
+    cursor:pointer;
 }
 
 .prs4 {
-    margin-top: -380px;
+    margin-top: -419px;
     margin-left: 50%;
     width: 46%;
+    cursor:pointer;
 }
 
 .barraCvS {
