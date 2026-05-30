@@ -14,7 +14,7 @@ formação académica, jornada pessoal e a startup Kazira.
 ## Autoria
 
 Todo o código, design e conteúdo foram desenvolvidos por mim.  
-Nenhum template foi utilizado — projecto construído do zero.
+Nenhum template foi utilizado — projecto construído do zero, e está é a ultima versão dos meus portfolios.
 
 ## Tecnologias
 
